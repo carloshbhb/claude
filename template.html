@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<meta name="keywords" content="{{KEYWORDS}}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="Vetor Blog">
+<link rel="canonical" href="https://vetor.blog{{CANONICAL}}">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Crect width='36' height='36' rx='9' fill='%231428A0'/%3E%3Cpolygon points='8,10 14.5,10 18,22 21.5,10 28,10 19.5,27 16.5,27' fill='%234285F4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://http2.mlstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://meli.la">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"></noscript>
+<link rel="stylesheet" href="/style.css">
+<link rel="preload" as="image" href="{{LCP_IMAGE}}" fetchpriority="high">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Vetor Blog">
+<meta property="og:title" content="{{OG_TITLE}}">
+<meta property="og:description" content="{{OG_DESCRIPTION}}">
+<meta property="og:url" content="https://vetor.blog{{OG_URL}}">
+<meta property="og:image" content="{{OG_IMAGE}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{TWITTER_TITLE}}">
+<meta name="twitter:description" content="{{TWITTER_DESCRIPTION}}">
+<meta name="twitter:image" content="{{TWITTER_IMAGE}}">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{#SCHEMA_BREADCRUMBS}}{{/SCHEMA_BREADCRUMBS}}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"{{TITLE}}","description":"{{META_DESCRIPTION}}","image":"{{OG_IMAGE}}","author":{"@type":"Organization","name":"Vetor Blog","url":"https://vetor.blog"},"publisher":{"@type":"Organization","name":"Vetor Blog","url":"https://vetor.blog","logo":{"@type":"ImageObject","url":"https://vetor.blog/logo.svg","width":36,"height":36}},"datePublished":"{{DATE_PUBLISHED}}","dateModified":"{{DATE_MODIFIED}}","mainEntityOfPage":{"@type":"WebPage","@id":"https://vetor.blog{{FULL_URL}}"},"wordCount":"{{WORD_COUNT}}","inLanguage":"pt-BR","articleSection":"{{SECTION}}","keywords":"{{KEYWORDS}}"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Product","name":"{{PRODUCT_NAME}}","sku":"{{PRODUCT_SKU}}","gtin13":"{{PRODUCT_GTIN}}","image":"{{PRODUCT_IMAGE}}","description":"{{PRODUCT_DESCRIPTION}}","brand":{"@type":"Brand","name":"{{BRAND_NAME}}"},"offers":{"@type":"Offer","priceCurrency":"BRL","price":"{{PRODUCT_PRICE}}","priceValidUntil":"{{PRICE_VALID_UNTIL}}","availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition","url":"{{AFFILIATE_URL}}","seller":{"@type":"Organization","name":"{{SELLER_NAME}}"},"shippingDetails":{"@type":"OfferShippingDetails","shippingDestination":{"@type":"DefinedRegion","addressCountry":"BR"},"shippingRate":{"@type":"MonetaryAmount","value":"0","currency":"BRL"},"deliveryTime":{"@type":"ShippingDeliveryTime","handlingTime":{"@type":"QuantitativeValue","minValue":"0","maxValue":"1","unitCode":"DAY"},"transitTime":{"@type":"QuantitativeValue","minValue":"1","maxValue":"7","unitCode":"DAY"}}},"hasMerchantReturnPolicy":{"@type":"MerchantReturnPolicy","applicableCountry":"BR","returnPolicyCategory":"https://schema.org/MerchantReturnFiniteReturnWindow","merchantReturnDays":"30","returnMethod":"https://schema.org/ReturnByMail","returnFees":"https://schema.org/FreeReturn"}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"{{RATING_VALUE}}","reviewCount":"{{REVIEW_COUNT}}","bestRating":"5","worstRating":"1"},"review":[{{#SCHEMA_REVIEWS}}{{/SCHEMA_REVIEWS}}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{{#SCHEMA_FAQS}}{{/SCHEMA_FAQS}}]}
+</script>
+</head>
+<body>
+<script src="/topbar.js"></script>
+<div class="alert-strip">{{ALERT_TEXT}}</div>
+<main>
+<div class="container">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    {{#BREADCRUMB_HTML}}{{/BREADCRUMB_HTML}}
+    <span aria-current="page">{{CURRENT_PAGE}}</span>
+  </nav>
+  <header class="article-hero">
+    <div class="hero-meta">
+      {{#META_TAGS}}{{/META_TAGS}}
+      <div class="meta-info">
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          {{DATE}}
+        </span>
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          {{READ_TIME}}
+        </span>
+      </div>
+    </div>
+    <h1>{{ARTICLE_H1}}</h1>
+    <p class="hero-lead">{{HERO_LEAD}}</p>
+    <div class="score-strip" role="region" aria-label="Pontuação geral">
+      <div>
+        <div class="score-label">Nota Vetor Blog</div>
+        <div class="score-number">{{SCORE}}</div>
+        <div class="score-stars" aria-label="{{SCORE_STARS}}">{{STARS}}</div>
+      </div>
+      <div class="score-bars" role="list">
+        {{#SCORE_BARS}}{{/SCORE_BARS}}
+      </div>
+    </div>
+  </header>
+  <div class="layout">
+    <article class="article-body" itemscope itemtype="https://schema.org/Article">
+      <meta itemprop="datePublished" content="{{DATE_PUBLISHED}}">
+      <meta itemprop="dateModified" content="{{DATE_MODIFIED}}">
+      <meta itemprop="author" content="Vetor Blog">
+      <div class="article-cta">
+        <div class="cta-eyebrow">{{CTA_EYEBROW}}</div>
+        <h3>{{CTA_TITLE}}</h3>
+        <p class="price-line"><s>De {{OLD_PRICE}}</s> por apenas <strong>{{NEW_PRICE}}</strong> {{SHIPPING}}</p>
+        <a href="{{AFFILIATE_URL}}" class="btn-white" target="_blank" rel="noopener sponsored nofollow">{{CTA_BUTTON}}</a>
+        <p class="cta-note">{{CTA_NOTE}}</p>
+      </div>
+      <h2 id="ficha-tecnica">FICHA TÉCNICA</h2>
+      <p>{{SPECS_INTRO}}</p>
+      <table class="specs-table">
+        <thead><tr><th scope="col">Especificação</th><th scope="col">{{PRODUCT_NAME}}</th></tr></thead>
+        <tbody>{{#SPECS}}{{/SPECS}}</tbody>
+      </table>
+      {{#SECTIONS}}{{/SECTIONS}}
+      {{#COMPARE_TABLE}}{{/COMPARE_TABLE}}
+      <h2 id="pros-contras">PRÓS E CONTRAS</h2>
+      <div class="pros-cons">
+        <div class="pros-box" role="region" aria-label="Pontos positivos">
+          <h4>✓ Prós</h4>
+          <ul>{{#PROS}}{{/PROS}}</ul>
+        </div>
+        <div class="cons-box" role="region" aria-label="Pontos negativos">
+          <h4>× Contras</h4>
+          <ul>{{#CONS}}{{/CONS}}</ul>
+        </div>
+      </div>
+      <h2 id="avaliacoes">O QUE OS COMPRADORES DIZEM</h2>
+      <div class="review-grid">{{#REVIEWS}}{{/REVIEWS}}</div>
+      <h2 id="veredicto">VEREDICTO FINAL</h2>
+      <div class="verdict-box">
+        <div class="verdict-label">Nota Vetor Blog</div>
+        <div class="verdict-score">{{VERDICT_SCORE}}<sup>/10</sup></div>
+        <h3>{{VERDICT_TITLE}}</h3>
+        <p>{{VERDICT_TEXT}}</p>
+        <p class="verdict-note">{{VERDICT_NOTE}}</p>
+      </div>
+      <h2 id="faq">PERGUNTAS FREQUENTES</h2>
+      <div class="faq-list">{{#FAQS}}{{/FAQS}}</div>
+      <div class="article-cta">
+        <div class="cta-eyebrow">{{CTA2_EYEBROW}}</div>
+        <h3>{{CTA2_TITLE}}</h3>
+        <p class="price-line"><s>De {{OLD_PRICE}}</s> por apenas <strong>{{NEW_PRICE}}</strong></p>
+        <a href="{{AFFILIATE_URL}}" class="btn-white" target="_blank" rel="noopener sponsored nofollow">{{CTA2_BUTTON}}</a>
+        <p class="cta-note">{{CTA2_NOTE}}</p>
+      </div>
+      <h2 id="veja-tambem">VEJA TAMBÉM</h2>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap:16px; margin-bottom:20px;">
+        {{#RELATED}}{{/RELATED}}
+      </div>
+    </article>
+    <aside class="sidebar" aria-label="Navegação e oferta">
+      <div class="toc-card" role="navigation" aria-label="Sumário do artigo">
+        <div class="toc-title">Sumário</div>
+        <ul class="toc-list">{{#TOC}}{{/TOC}}</ul>
+      </div>
+      <div class="sidebar-cta">
+        <div style="font-family:'Syne',sans-serif; font-size:.72rem; font-weight:800; letter-spacing:.18em; text-transform:uppercase; opacity:.7; margin-bottom:10px;">Melhor Preço</div>
+        <div class="s-price-old">De {{OLD_PRICE}}</div>
+        <div class="s-price">{{NEW_PRICE}}</div>
+        <div class="s-badge">{{DISCOUNT}} · {{SHIPPING_BADGE}}</div>
+        <a href="{{AFFILIATE_URL}}" class="btn-cta" target="_blank" rel="noopener sponsored nofollow">{{CTA_BUTTON_SIDEBAR}}</a>
+        <a href="{{AFFILIATE_URL}}" class="btn-cta-outline" target="_blank" rel="noopener sponsored nofollow">{{CTA_OUTLINE_TEXT}}</a>
+        <div class="s-guarantee">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Compra 100% segura
+        </div>
+      </div>
+      <div class="related-card">
+        <div class="related-title">Artigos Relacionados</div>
+        <nav class="related-list" aria-label="Links relacionados">{{#SIDEBAR_RELATED}}{{/SIDEBAR_RELATED}}</nav>
+      </div>
+    </aside>
+  </div>
+</div>
+</main>
+<footer>
+  <div class="footer-logo">
+    <svg width="28" height="28" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect width="36" height="36" rx="9" fill="#1428A0"/>
+      <polygon points="8,10 14.5,10 18,22 21.5,10 28,10 19.5,27 16.5,27" fill="#4285F4"/>
+    </svg>
+    vetor.blog
+  </div>
+  <p>Vetor.blog participa do programa de afiliados do Mercado Livre. Os preços e condições apresentados são promocionais e podem ser alterados sem aviso prévio. Este site não é afiliado à Samsung. As informações têm caráter informativo e não substituem orientação médica.</p>
+</footer>
+<script src="/main.js"></script>
+</body>
+</html>
